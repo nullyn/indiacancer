@@ -1,1 +1,3 @@
-# indiacancer
+---
+permalink: /index.html
+---
