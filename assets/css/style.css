@@ -1,0 +1,76 @@
+body{
+    background-color: #ffb366;
+}
+.background{
+  display:inline-block;
+  float:none;
+  text-align:left;
+  margin: 15px;
+  min-height: 248px;
+  font-size: 20px;
+  padding: 27px;
+  box-shadow: 0 0 25px 1px  #d6d6c2!important;
+  overflow: hidden;
+  background-color: white;
+  width:100%;/*responsive*/
+}
+.background h2{
+  text-align: center;
+  margin:0!important;
+}
+.background a:hover{
+  text-decoration: none;
+}
+.row-centered{
+  text-align: center;
+}
+
+#header{
+  text-align: center;
+  background-image: url(../images/slidebar-02.jpg);
+  min-height: 160px;
+}
+#header img{
+  max-width: 150px;
+  max-height: 150px;
+}
+
+#header h1{
+  display: inline-block;
+  font-size: 46px!important;
+  color: #000033;
+
+}
+.logo-02{
+  float: right;
+}
+.logo-01{
+  float: left;
+}
+#footer img{
+  max-width: 150px;
+  max-height: 150px;
+  float: right;
+  margin-top: 5%;
+}
+ul li i{
+  color:#337ab7;
+}
+/* Final Changes */
+.container{
+  width:100%!important;
+  background-color: white;
+}
+.fa-li{
+  top:-2px!important;
+}
+a:focus{
+  text-decoration: none!important;
+}
+.col-center{
+  float: none;
+  margin: 0 auto;
+}
+.display{
+  display: inline-block;
+}
