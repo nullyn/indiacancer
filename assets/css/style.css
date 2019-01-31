@@ -1,13 +1,13 @@
 #header{
   text-align: center;
   background-image: url(../images/1.png);
-  background-size: cover;
+  background-size: auto;
   background-repeat: no-repeat;
 
 }
 body{
   background-image: url(../images/2.png);
-  background-size: contain;
+  background-size: auto;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -37,6 +37,7 @@ body{
 }
 .pos-rel{
   position: relative;
+  margin-bottom: 15px;
 }
 .pos-abs{
   position: absolute;
@@ -56,9 +57,14 @@ body{
 }
 .menu{
   color: #7e9a80;
-  font-weight: 700;
+  /* font-weight: 700; */
+  font-family: 'akrobat-bold';
+  font-size: 16px;
 }
-
+.menu-align{
+  margin: auto;
+  width:43%;
+}
 .col-sm-4-width{
   width: 24%!important;
   margin-right: 2px;
@@ -67,7 +73,7 @@ body{
   width:46.5%;
   margin-right: 2px;
   padding-left: 3px;
-  padding-right: 3px; 
+  padding-right: 3px;
 }
 .FAQ-align{
   float: right;
@@ -84,4 +90,25 @@ body{
 }
 .col-sm-3-width{
   width:29.2%!important;
+}
+.bottom-page-magin{
+  margin-bottom: 30px;
+}
+/* fonts */
+@font-face {
+  font-family: 'akrobat-bold';
+  src: url(../fonts/Akrobat-Bold.otf);
+}
+@font-face {
+  font-family: 'akhand-regular';
+  src: url(../fonts/4-AkhandDevanagari-Regular.otf);
+}
+.link h4{
+  font-family: 'akrobat-bold'
+}
+.link h4 span{
+  font-family: 'akhand-regular';
+}
+.hindi-menu{
+  font-family: 'akhand-regular';
 }
