@@ -1,76 +1,87 @@
-body{
-    background-color: #ffb366;
-}
-.background{
-  display:inline-block;
-  float:none;
-  text-align:left;
-  margin: 15px;
-  min-height: 248px;
-  font-size: 20px;
-  padding: 27px;
-  box-shadow: 0 0 25px 1px  #d6d6c2!important;
-  overflow: hidden;
-  background-color: white;
-  width:100%;/*responsive*/
-}
-.background h2{
-  text-align: center;
-  margin:0!important;
-}
-.background a:hover{
-  text-decoration: none;
-}
-.row-centered{
-  text-align: center;
-}
-
 #header{
   text-align: center;
-  background-image: url(../images/slidebar-02.jpg);
-  min-height: 160px;
-}
-#header img{
-  max-width: 150px;
-  max-height: 150px;
-}
-
-#header h1{
-  display: inline-block;
-  font-size: 46px!important;
-  color: #000033;
+  background-image: url(../images/1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 
 }
-.logo-02{
-  float: right;
+body{
+  background-image: url(../images/2.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.slogan{
+  max-width: 360px;
 }
 .logo-01{
-  float: left;
+  max-width: 130px;
 }
-#footer img{
-  max-width: 150px;
-  max-height: 150px;
-  float: right;
-  margin-top: 5%;
+.logo-02{
+  max-width: 66px;
 }
-ul li i{
-  color:#337ab7;
-}
-/* Final Changes */
-.container{
-  width:100%!important;
-  background-color: white;
-}
-.fa-li{
-  top:-2px!important;
-}
-a:focus{
-  text-decoration: none!important;
-}
-.col-center{
+.col-centered{
   float: none;
   margin: 0 auto;
 }
-.display{
-  display: inline-block;
+.link{
+  background-color: #f2f2f2;
+  padding-bottom: 1px;
+}
+.link h4{
+  background-color: #bfbfbf;
+  padding: 6px;
+}
+.ul{
+  margin-left: -15px;
+}
+.pos-rel{
+  position: relative;
+}
+.pos-abs{
+  position: absolute;
+  left:19%;
+}
+.col-sm-1 img{
+  max-width: 67px;
+  background-color: #bfbfbf;
+}
+.menu-section{
+  margin-top: 2%;
+  background-color:#e1f0e2;
+  min-height: 30px;
+}
+.menu-section img{
+  max-width: 31px;
+}
+.menu{
+  color: #7e9a80;
+  font-weight: 700;
+}
+
+.col-sm-4-width{
+  width: 24%!important;
+  margin-right: 2px;
+}
+.col-sm-6-width{
+  width:46.5%;
+  margin-right: 2px;
+  padding-left: 3px;
+  padding-right: 3px; 
+}
+.FAQ-align{
+  float: right;
+  margin-top: 0.5%;
+}
+.menu a{
+  color: #7e9a80!important;
+}
+.menu a:hover{
+  text-decoration: none;
+}
+.menu a:focus{
+  text-decoration: none;
+}
+.col-sm-3-width{
+  width:29.2%!important;
 }
